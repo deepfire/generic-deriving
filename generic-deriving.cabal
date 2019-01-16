@@ -76,10 +76,10 @@ library
     build-depends:      base >= 4.3 && < 4.9
     other-modules:      Generics.Deriving.TH.Pre4_9
 
-  build-depends:        containers       >= 0.1   && < 0.7
+  build-depends:        containers       >= 0.1 && < 0.7
                       , ghc-prim                     < 1
-                      , template-haskell >= 2.4   && < 2.15
-                      , th-abstraction   >= 0.2.9 && < 0.3
+                      , template-haskell >= 2.4 && < 2.15
+                      , th-abstraction   >= 0.3 && < 0.4
 
   default-language:     Haskell2010
   ghc-options:          -Wall

@@ -1,4 +1,5 @@
 # next [????.??.??]
+* Require `th-abstraction-0.3.0.0` or later.
 * Add a `gshowList` method to `GShow`, which lets us avoid the need for
   `OverlappingInstances` in `Generics.Deriving.TH`. As a consequence, the
   `GShow String` instance has been removed, as it is now fully subsumed by
